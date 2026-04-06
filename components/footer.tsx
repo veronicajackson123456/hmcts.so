@@ -83,38 +83,45 @@ export function Footer() {
                   Technology Integration
                 </Link>
               </li>
+            </ul>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <h3 className="font-bold text-gray-900 mb-4">Legal</h3>
+            <ul className="space-y-3 text-sm">
               <li>
-                <Link href="/terms" className="text-gray-700 hover:text-teal-600">
+                <Link href="/legal/terms" className="text-gray-700 hover:text-teal-600">
                   Terms & Conditions
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="text-gray-700 hover:text-teal-600">
+                <Link href="/legal/privacy" className="text-gray-700 hover:text-teal-600">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/cookies" className="text-gray-700 hover:text-teal-600">
+                <Link href="/legal/cookies" className="text-gray-700 hover:text-teal-600">
                   Cookie Policy
                 </Link>
               </li>
               <li>
-                <Link href="/gdpr" className="text-gray-700 hover:text-teal-600">
+                <Link href="/legal/gdpr" className="text-gray-700 hover:text-teal-600">
                   GDPR Compliance
                 </Link>
               </li>
               <li>
-                <Link href="/accessibility" className="text-gray-700 hover:text-teal-600">
+                <Link href="/legal/accessibility" className="text-gray-700 hover:text-teal-600">
                   Accessibility
                 </Link>
               </li>
               <li>
-                <Link href="/disclaimer" className="text-gray-700 hover:text-teal-600">
+                <Link href="/legal/disclaimer" className="text-gray-700 hover:text-teal-600">
                   Disclaimer
                 </Link>
               </li>
               <li>
-                <Link href="/acceptable-use" className="text-gray-700 hover:text-teal-600">
+                <Link href="/legal/acceptable-use" className="text-gray-700 hover:text-teal-600">
                   Acceptable Use
                 </Link>
               </li>
