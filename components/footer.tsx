@@ -93,6 +93,31 @@ export function Footer() {
                   Privacy Policy
                 </Link>
               </li>
+              <li>
+                <Link href="/cookies" className="text-gray-700 hover:text-teal-600">
+                  Cookie Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/gdpr" className="text-gray-700 hover:text-teal-600">
+                  GDPR Compliance
+                </Link>
+              </li>
+              <li>
+                <Link href="/accessibility" className="text-gray-700 hover:text-teal-600">
+                  Accessibility
+                </Link>
+              </li>
+              <li>
+                <Link href="/disclaimer" className="text-gray-700 hover:text-teal-600">
+                  Disclaimer
+                </Link>
+              </li>
+              <li>
+                <Link href="/acceptable-use" className="text-gray-700 hover:text-teal-600">
+                  Acceptable Use
+                </Link>
+              </li>
             </ul>
           </div>
 
